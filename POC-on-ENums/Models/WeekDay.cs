@@ -8,6 +8,7 @@ namespace POC_on_ENums.Models
 {
     internal class WeekDay
     {
+        //Enum of WEEKLY days
         public enum Day
         {
             Sunday,
@@ -19,6 +20,7 @@ namespace POC_on_ENums.Models
             Saturday
         }
 
+        //ENUM of Custum day with chnages value
         public enum CustomDay
         {
             Sunday = 7,

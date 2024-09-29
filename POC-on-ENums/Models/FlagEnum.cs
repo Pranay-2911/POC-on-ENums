@@ -8,6 +8,7 @@ namespace POC_on_ENums.Models
 {
     internal class FlagEnum
     {
+        //Enum for fileacess to use bitwise operator
         public enum FileAccess
         {
             Read = 1,

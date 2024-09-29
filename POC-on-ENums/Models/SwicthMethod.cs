@@ -8,6 +8,7 @@ namespace POC_on_ENums.Models
 {
     internal class SwicthMethod
     {
+        // Traffic light Enum
         public enum TrafficLight
         {
             Red,
@@ -15,6 +16,8 @@ namespace POC_on_ENums.Models
             Green
         }
 
+
+        // switch case to use Enum
         public  static void ControlTraffic(TrafficLight light)
         {
             switch(light)
